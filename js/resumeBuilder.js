@@ -63,14 +63,14 @@ var work = {
         "title": "Front-End Developer",
         "employer": "BMW Group Australia",
         "link": "http://www.bmw.com.au",
-        "dates": "2014-current",
+        "dates": "2012-current",
         "location": "Melbourne, Australia",
         "description": "<p>At BMW, I am mainly involved in<ul><li>developing and maintaining BMW Motorrad National and Dealer websites using WCMS platform</li><li>developing and maintaining BMW National and Dealer websites using AEM and Open CMS platform</li><li>we also develop and maintain all our local applications like CRM forms, dealer locator, model compare and price tool, microsites etc. starting from mock-up designs to final product using various programming languages and frameworks like HTML, CSS, SCSS, Javascript, jQuery, AngularJS.</li><li>project versioning and documentation on Atlassian portal.</li><li>cross browser and platform testing.</li><li>create analytical performance reports using Google Analytics in sync with GTM and DTM.</li></ul></p>"
     }, {
         "title": "Media Developer Project Coordinator",
         "employer": "Cengage Learning Australia",
         "link": "https://cengage.com.au",
-        "dates": "2009-2014",
+        "dates": "2009-2012",
         "location": "Melbourne, Australia",
         "description": "My main responsibilities at Cengage was<ul><li>to design and build e-learning products, interactive learning objects, animations, video editing etc.</li><li>develop various web applications using HTML/CSS, Javascript, Flash, XML, Verdi CMS.</li><li>I was also involved in managing external vendors and communicating ongoing feedback to stakeholders.</li></ul>"
     }, {
@@ -171,7 +171,6 @@ work.display = function() {
         $(".work-entry:last").append(HTMLworkDates.replace("%data%", job.dates));
         $(".work-entry:last").append(HTMLworkDescription.replace("%data%", job.description));
     });
-    //console.log(work.jobs[job].title);
 };
 
 // display projects from projects object
