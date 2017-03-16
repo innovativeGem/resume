@@ -148,9 +148,7 @@ bio.display = function() {
         $("#header").append(HTMLskillsStart);
         bio.skills.forEach(function(skill) {
             $.each( skill, function( key, val ) {
-                console.log("title: " + key);
                 $.each( val, function( key1, val1 ) {
-                    console.log("skill name: " + val1.name + ", skill level: "+ val1.level);
                     $("#skills").append(HTMLskills.replace("%data%", val1.name).replace("%data2%", val1.level+"0%"));
                     // $("#skills .skillItem").append(HTMLskillsBar.replace("%data%", val1.level+"0%"));
                 })
