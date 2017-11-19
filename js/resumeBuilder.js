@@ -14,21 +14,21 @@ var bio = {
         "Software": [
             {
                 "name": "Adobe Software Package",
-                "level": "8"
+                "level": "6"
             },
             {
                 "name": "Visual Studio",
                 "level": "7"
             },
             {
-                "name": "Sublime Text",
+                "name": "Visual Studio Code",
                 "level": "8"
             }
         ]},
         {
         "Programming": [
             {
-                "name": "HTML/CSS",
+                "name": "HTML, CSS/SCSS",
                 "level": "8"
             },
             {
@@ -36,7 +36,7 @@ var bio = {
                 "level": "7"
             },
             {
-                "name": "Angular JS",
+                "name": "Angular",
                 "level": "6"
             }
         ]},
@@ -48,7 +48,7 @@ var bio = {
             },
             {
                 "name": "Analytics & reporting",
-                "level": "7"
+                "level": "6"
             },
             {
                 "name": "Time management & prioritising",
@@ -64,14 +64,14 @@ var work = {
         "employer": "BMW Group Australia",
         "link": "http://www.bmw.com.au",
         "dates": "2012-current",
-        "location": "Melbourne, Australia",
+        "location": "783 Springvale Road, Mulgrave, Melbourne, Australia",
         "description": "<p>At BMW, I am mainly involved in<ul><li>developing and maintaining BMW Motorrad National and Dealer websites using WCMS platform</li><li>developing and maintaining BMW National and Dealer websites using AEM and Open CMS platform</li><li>we also develop and maintain all our local applications like CRM forms, dealer locator, model compare and price tool, microsites etc. starting from mock-up designs to final product using various programming languages and frameworks like HTML, CSS, SCSS, Javascript, jQuery, AngularJS.</li><li>project versioning and documentation on Atlassian portal.</li><li>cross browser and platform testing.</li><li>create analytical performance reports using Google Analytics in sync with GTM and DTM.</li></ul></p>"
     }, {
         "title": "Media Developer Project Coordinator",
         "employer": "Cengage Learning Australia",
         "link": "https://cengage.com.au",
         "dates": "2009-2012",
-        "location": "Melbourne, Australia",
+        "location": "80 Dorcas Street, South Melbourne, Victoria 3205",
         "description": "My main responsibilities at Cengage was<ul><li>to design and build e-learning products, interactive learning objects, animations, video editing etc.</li><li>develop various web applications using HTML/CSS, Javascript, Flash, XML, Verdi CMS.</li><li>I was also involved in managing external vendors and communicating ongoing feedback to stakeholders.</li></ul>"
     }, {
         "title": "Front End Developer",
