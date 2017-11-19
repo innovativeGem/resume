@@ -65,7 +65,7 @@ var work = {
         "link": "http://www.bmw.com.au",
         "dates": "2012-current",
         "location": "783 Springvale Road, Mulgrave, Melbourne, Australia",
-        "description": "<p>At BMW, I am mainly involved in<ul><li>developing and maintaining BMW Motorrad National and Dealer websites using WCMS platform</li><li>developing and maintaining BMW National and Dealer websites using AEM and Open CMS platform</li><li>we also develop and maintain all our local applications like CRM forms, dealer locator, model compare and price tool, microsites etc. starting from mock-up designs to final product using various programming languages and frameworks like HTML, CSS, SCSS, Javascript, jQuery, AngularJS.</li><li>project versioning and documentation on Atlassian portal.</li><li>cross browser and platform testing.</li><li>create analytical performance reports using Google Analytics in sync with GTM and DTM.</li></ul></p>"
+        "description": "<p>At BMW, I am mainly involved in<ul><li>developing and maintaining BMW Motorrad National and Dealer websites using WCMS platform</li><li>developing and maintaining BMW National and Dealer websites using Pimcore and JAVA CMS platform</li><li>we also develop and maintain all our local applications like CRM forms, dealer locator, model compare and price tool, microsites etc. starting from mock-up designs to final product using various programming languages and frameworks like HTML, CSS, SCSS, Javascript, jQuery, Angular, JSON.</li><li>GIT versioning and documentation on Atlassian portal using Source Tree.</li><li>unit testing, cross browser testing and cross platform testing.</li><li>create analytical performance reports using Google Analytics in sync with GTM.</li></ul></p>"
     }, {
         "title": "Media Developer Project Coordinator",
         "employer": "Cengage Learning Australia",
@@ -80,52 +80,66 @@ var work = {
         "dates": "2007-2008",
         "location": "Melbourne, Australia",
         "description": "Build dynamic web templates for various business types. Design mock-ups and HTML/CSS custom interfaces, Image editing, animations, coding, video editing."
+    }, {
+        "title": "Freelance Project",
+        "employer": "Estate Plastering",
+        "link": "http://www.estateplastering.com.au/",
+        "dates": "2016-2017",
+        "location": "42 Bella Crescent, Hallam, Melbourne, Victoria - 3803",
+        "description": "Build dynamic responsive website for my client Estate Plastering in wordpress. I have also designed their logo and business cards. Besides, I am also responsible to develop and maintain their social media presence."
     }]
 };
 
 var projects = {
     "projects": [{
-        "title": "BMW Motorrad Australia",
-        "link": "http://www.bmwmotorrad.com.au",
-        "description": "I am part of a team that develops and maintain BMW Motorrad Australia national and dealer websites and microsites. My responsibilies are to maintain the web content on our national and dealer websites, develop local web applications, track performance and report status back to motorrad team.",
-        "images": ["images/motorrad-0.jpg", "images/motorrad-1.jpg", "images/motorrad-2.jpg"]
-    }, {
         "title": "BMW Cars Australia",
         "link": "http://www.bmw.com.au",
-        "description": "As a part of the web team that develops and maintain BMW Australia national and dealer websites and microsites my responsibilies are to maintain the web content on our national and dealer websites, develop local web applications, track performance and report status back to various teams.",
+        "description": "As a part of the web team that develops and maintain BMW Australia national and dealer websites and microsites my responsibilies are to maintain the web content on our national and dealer websites using Pimcore and JAVA CMS. I also develop local web applications like dealer locator, BMW recalls app, CRM forms, compare and price tool etc. using various front-end technologies like HTML, CSS/SCSS, Javascript/jQuery, Angular, JSON, WebApi and GIT.  Moreover, I also integrate GA and GTM tracking in these applications and report status back to various stakeholders/teams.<br/><b>Links: </b><a class='proj-link' href='https://www.bmw.com.au/' target='_blank'>BMW Australia</a>, <a  class='proj-link' href='https://www.bmw.com.au/find-a-bmw-dealer' target='_blank'>Dealer Locator</a>, <a  class='proj-link' href='https://www.bmw.com.au/compare-price' target='_blank'>Compare & Price</a>",
         "images": ["images/bmw-0.jpg", "images/bmw-1.jpg", "images/bmw-2.jpg"]
+    }, {
+        "title": "BMW Motorrad Australia",
+        "link": "http://www.bmwmotorrad.com.au",
+        "description": "I am responsible for maintining up-to-date content and promotions for BMW Motorrad Australia National and Dealer websites. Moreover, I have also developed and integrated local applications like dealer locator, CRM forms, Motorrad pricing tool, Motorrad recalls app etc.<br/> I have mainly used WCMS3/4, Photoshop, HTML, CSS/SCSS, Javascript/jQuery, Angular, JSON, WebApi to develop and maintain these applications.<br/><b>Links: </b><a class='proj-link' href='http://www.bmwmotorrad.com.au/au/en/index.html' target='_blank'>BMW Motorrad Australia</a>, <a  class='proj-link' href='http://www.bmwmotorrad.com.au/au/en/index.html?content=http://www.bmwmotorrad.com.au/au/en/individual/dealer_locator/index.html&' target='_blank'>Dealer Locator</a>, <a  class='proj-link' href='http://www.bmwmotorrad.com.au/au/en/index.html?content=http://www.bmwmotorrad.com.au/au/en/individual/forms/crm_forms.html&BrandId=3&RequestType=TD' target='_blank'>CRM Forms</a>, <a  class='proj-link' href='http://www.bmwmotorrad.com.au/au/en/index.html?content=http://www.bmwmotorrad.com.au/au/en/services/recall.html&notrack=1' target='_blank'>Recalls App</a> ",
+        "images": ["images/motorrad-0.jpg", "images/motorrad-1.jpg", "images/motorrad-2.jpg"]
     }, {
         "title": "Estate Plastering",
         "link": "http://estateplastering.com.au",
-        "description": "This is my freelance project where my client required a simple website to show their new projects, services and have an online presense. I have used wordpress for this project.",
-        "images": ["images/estate-0.jpg", "images/estate-1.jpg"]
+        "description": "This is my freelance project where my client required a simple website to show their new projects, services and have an online presense to generate more leads. As a solution, i developed a wordpress website, design their company logo and business cards. I am also responsible for creating and maintaining their social media pages. As a result my client receives tripple amount of leads and a stronger online presence compared to their competitors.<br/><b>Links: </b><a class='proj-link' href='http://estateplastering.com.au/' target='_blank'>Estate Plastering</a>, <a class='proj-link' href='https://www.facebook.com/Estate-Plastering-1524864714244773/' target='_blank'>Facebook Page</a>, <a  class='proj-link' href='https://www.instagram.com/estateplastering/' target='_blank'>Instagram Page</a>",
+        "images": ["images/estate-0.jpg", "images/estate-1.jpg", "images/estate-2.jpg"]
     }]
 };
 
 var education = {
-    "schools": [{
-        "name": "Swinburne University",
-        "degree": "Master of Multimedia Technology",
-        "dates": "2004-2006",
-        "location": "Melbourne, Australia",
-        "link": "http://www.swinburne.edu.au/study/course/Master-of-Multimedia-MA-MM1/international"
-    }, {
-        "name": "Keyframes Institute of Technology",
-        "degree": "Diploma in Multimedia",
-        "dates": "2001-2003",
-        "location": "Ahmedabad, India"
-    }],
-    "onlineCourses": [{
-        "name": "Up and Running with AngularJS",
-        "school": "Lynda.com",
-        "dates": "Jun 2015",
-        "link": "https://www.lynda.com/AngularJS-tutorials/Up-Running-AngularJS/154414-2.html"
-    }, {
-        "name": "Front-End Web Developer Nanodegree",
-        "school": "Udacity.com",
-        "dates": "Mar 2016 - Oct 2016",
-        "link": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
-    }]
+    "schools": [
+        {
+            "name": "Keyframes Institute of Technology",
+            "degree": "Diploma in Multimedia",
+            "dates": "2001-2003",
+            "location": "Ahmedabad, India"
+        },
+        {
+            "name": "Swinburne University",
+            "degree": "Master of Multimedia Technology",
+            "dates": "2004-2006",
+            "location": "Melbourne, Australia",
+            "link": "http://www.swinburne.edu.au/study/course/Master-of-Multimedia-MA-MM1/international"
+        }],
+        "onlineCourses": [{
+            "name": "Front-End Web Developer Nanodegree",
+            "school": "Udacity.com",
+            "dates": "2015",
+            "link": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
+        }, {
+            "name": "Up and Running with AngularJS",
+            "school": "Lynda.com",
+            "dates": "2016",
+            "link": "https://www.lynda.com/AngularJS-tutorials/Up-Running-AngularJS/154414-2.html"
+        }, {
+            "name": "Play by Play: Angular2",
+            "school": "Puralsight.com",
+            "dates": "2017",
+            "link": "https://www.pluralsight.com/courses/play-by-play-angular-2-rxjs-http-restful-services-john-papa-dan-wahlin"
+        }]
 };
 
 //var formattedName = HTMLheaderName.replace("%data%", name);
